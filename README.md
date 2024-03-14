@@ -49,11 +49,10 @@ The dataset's orientation towards tasks such as language modeling and text gener
 
 The dataset's ongoing expansion ensures it remains a cutting-edge resource for NLP research and development. Its evolving nature reflects the latest advancements in language model training, making it a strategic choice for projects aiming at innovation.
 
-## Conclusion
-
 The OpenOrca dataset's considerable size, real-world relevance, and adaptability make it an excellent resource for the training and fine-tuning of Large Language Models. Its availability on both Kaggle and Hugging Face platforms enhances its accessibility for a wide range of NLP applications and research endeavors.
 
-## Selected Model: Mistral-7B-OpenOrca
+
+## Selected Model: [Mistral-7B-OpenOrca](https://huggingface.co/Open-Orca/Mistral-7B-OpenOrca)
 
 ### Introduction
 
@@ -98,11 +97,24 @@ Mistral-7B-OpenOrca demonstrates outstanding performance across several benchmar
    - GPT4ALL Leaderboard: Leads with an average score of 72.38, showcasing a slight edge over previous releases.
    - MT-Bench: On par with Llama2-70b-chat, achieving an average score of 6.86.
 
+## Fine-Tuning Mistral-7B-OpenOrca
+
+Fine-tuning the Mistral-7B-OpenOrca model allows you to tailor its capabilities for specific tasks or datasets. To get started with fine-tuning this model, consider exploring the following comprehensive tutorials which provide step-by-step instructions:
+
+- [Fine-tune a Mistral 7B Model with Direct Preference Optimization](https://towardsdatascience.com/fine-tune-a-mistral-7b-model-with-direct-preference-optimization-708042745aac) on Towards Data Science: This tutorial offers insights into fine-tuning Mistral 7B using Direct Preference Optimization, providing a detailed walkthrough on optimizing the model's performance for specific preferences.
+  
+- [Mistral 7B Tutorial](https://www.datacamp.com/tutorial/mistral-7b-tutorial) on DataCamp: This tutorial provides a beginner-friendly guide to fine-tuning Mistral 7B, covering the essentials of model adjustment to enhance its applicability to a wide range of NLP tasks.
+
+- [Fine-tuning Mistral-7b with DPO(kaggle)](https://www.kaggle.com/code/aisuko/fine-tuning-mistral-7b-with-dpo)
+
+These tutorials are excellent resources for anyone looking to harness the full potential of Mistral-7B through fine-tuning. Whether you're optimizing for specific types of text generation or aiming to improve task-specific performance, following these guides will provide a solid foundation for your efforts. For more detailed instructions and examples, please refer to these tutorials linked above
+
+
 ### Conclusion
 
 The Mistral-7B-OpenOrca model, through its strategic fine-tuning on the OpenOrca dataset, sets a new standard for LLM performance and application potential. Its impressive achievements across diverse benchmarks underscore its leadership in the evolving landscape of AI technology.
 
-For more detailed information and access to the model, visit [Clarifai](https://clarifai.com/mistralai/completion/models/mistral-7B-OpenOrca).
+For more detailed information and access to the model, please visit [Clarifai](https://clarifai.com/mistralai/completion/models/mistral-7B-OpenOrca) , [huggingface](https://huggingface.co/Open-Orca/Mistral-7B-OpenOrca).
 
 
 

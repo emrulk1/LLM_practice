@@ -4,27 +4,6 @@
 
 The OpenOrca dataset comprises augmented data from the FLAN Collection, including approximately 1 million GPT-4 completions and 3.2 million GPT-3.5 completions. It is structured in alignment with the distributions outlined in the ORCA paper and represents a partial fulfillment of the complete dataset envisioned, with ongoing efforts to expand its scope. This dataset is primarily employed for training and evaluation purposes within the field of natural language processing (NLP).
 
-## Dataset Attribution
-
-Special recognition is extended to the following contributors for their considerable efforts and dedication:
-
-- Teknium
-- WingLian/Caseus
-- Eric Hartford
-- NanoBit
-- Pankaj
-- Winddude
-- Rohan
-
-Additional thanks to http://AlignmentLab.ai for contributions from:
-
-- Autometa
-- Entropi
-- AtlasUnified
-- NeverendingToast
-- NanoBit
-- WingLian/Caseus
-
 ## Supported Tasks and Leaderboards
 
 OpenOrca supports various tasks, including language modeling, text generation, and text augmentation. It has played a crucial role in generating multiple high-performing model checkpoints, demonstrating exceptional performance in unit testing. Updates on leaderboards and further information will be provided as available.

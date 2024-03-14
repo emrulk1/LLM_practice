@@ -52,3 +52,60 @@ The dataset's ongoing expansion ensures it remains a cutting-edge resource for N
 ## Conclusion
 
 The OpenOrca dataset's considerable size, real-world relevance, and adaptability make it an excellent resource for the training and fine-tuning of Large Language Models. Its availability on both Kaggle and Hugging Face platforms enhances its accessibility for a wide range of NLP applications and research endeavors.
+
+## Selected Model: Mistral-7B-OpenOrca
+
+### Introduction
+
+The **Mistral-7B-OpenOrca** model represents a significant achievement in the realm of Large Language Models (LLMs), having been fine-tuned on the [OpenOrca dataset](https://huggingface.co/mistralai/Mistral-7B-v0.1). This model is distinguished by its remarkable performance, surpassing all models below 30B parameters and achieving 98% of Llama2-70B-chat's performance.
+
+### Mistral 7B: Base Model Overview
+
+- **Parameters**: 7.3 billion
+- **License**: Apache 2.0
+- **Performance Highlights**:
+  - Surpasses Llama2-13B across all benchmark tasks.
+  - Exhibits competitive performance against CodeLlama-7B in code-related tasks.
+  - Maintains high proficiency in English language tasks.
+
+### Fine-tuning with OpenOrca
+
+Fine-tuned on the OpenOrca dataset, Mistral-7B-OpenOrca leverages the rich data pool designed to mirror Microsoft Research's Orca Paper dataset. As of its release, it ranked #2 on the HuggingFace Leaderboard among models smaller than 30B.
+
+### How to Run Mistral-7B-OpenOrca
+
+Utilize Clarifai’s Python SDK to interact with the Mistral-7B-OpenOrca model. Ensure your Personal Access Token (PAT) is set as an environment variable in your shell:
+
+```bash
+export CLARIFAI_PAT={your personal access token}
+```
+Then, run the model prediction using the following Python code:
+
+```python
+from clarifai.client.model import Model
+
+# Initialize and use the model
+model_prediction = Model("https://clarifai.com/mistralai/completion/models/mistral-7B-OpenOrca").predict_by_bytes(b"Write a tweet on future of AI", "text")
+```
+
+### Performance Evaluation
+
+Mistral-7B-OpenOrca demonstrates outstanding performance across several benchmarks:
+
+    HuggingFace Leaderboard: Achieves 105% of the base model's performance with an average score of 65.33.
+    AGIEval: Indicates a performance of 129% of the base model's, with an average score of 0.397.
+    BigBench-Hard: Shows strong capability with 119% of the base model's performance, scoring 0.416.
+    GPT4ALL Leaderboard: Leads with an average score of 72.38, showcasing a slight edge over previous releases.
+    MT-Bench: On par with Llama2-70b-chat, achieving an average score of 6.86.
+
+### Conclusion
+
+The Mistral-7B-OpenOrca model, through its strategic fine-tuning on the OpenOrca dataset, sets a new standard for LLM performance and application potential. Its impressive achievements across diverse benchmarks underscore its leadership in the evolving landscape of AI technology.
+
+For more detailed information and access to the model, visit [Clarifai](https://clarifai.com/mistralai/completion/models/mistral-7B-OpenOrca).
+
+
+
+
+
+ 

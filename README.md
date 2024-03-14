@@ -1,4 +1,4 @@
-# OpenOrca Dataset
+# Selected Dataset : Among many datasets currently available for LLMs , I have selected OpenOrca Dataset for LLM traing and finetuning.
 
 ## Dataset Summary
 

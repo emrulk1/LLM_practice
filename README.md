@@ -92,11 +92,11 @@ model_prediction = Model("https://clarifai.com/mistralai/completion/models/mistr
 
 Mistral-7B-OpenOrca demonstrates outstanding performance across several benchmarks:
 
-    HuggingFace Leaderboard: Achieves 105% of the base model's performance with an average score of 65.33.
-    AGIEval: Indicates a performance of 129% of the base model's, with an average score of 0.397.
-    BigBench-Hard: Shows strong capability with 119% of the base model's performance, scoring 0.416.
-    GPT4ALL Leaderboard: Leads with an average score of 72.38, showcasing a slight edge over previous releases.
-    MT-Bench: On par with Llama2-70b-chat, achieving an average score of 6.86.
+   - HuggingFace Leaderboard: Achieves 105% of the base model's performance with an average score of 65.33.
+   - AGIEval: Indicates a performance of 129% of the base model's, with an average score of 0.397.
+   - BigBench-Hard: Shows strong capability with 119% of the base model's performance, scoring 0.416.
+   - GPT4ALL Leaderboard: Leads with an average score of 72.38, showcasing a slight edge over previous releases.
+   - MT-Bench: On par with Llama2-70b-chat, achieving an average score of 6.86.
 
 ### Conclusion
 

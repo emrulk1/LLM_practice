@@ -114,7 +114,7 @@ These tutorials are excellent resources for anyone looking to harness the full p
 
 The Mistral-7B-OpenOrca model, through its strategic fine-tuning on the OpenOrca dataset, sets a new standard for LLM performance and application potential. Its impressive achievements across diverse benchmarks underscore its leadership in the evolving landscape of AI technology.
 
-For more detailed information and access to the model, please visit [Clarifai](https://clarifai.com/mistralai/completion/models/mistral-7B-OpenOrca) , [huggingface](https://huggingface.co/Open-Orca/Mistral-7B-OpenOrca).
+For more detailed information about the benchmarks and access to the model, please visit [Clarifai](https://clarifai.com/mistralai/completion/models/mistral-7B-OpenOrca) , [huggingface](https://huggingface.co/Open-Orca/Mistral-7B-OpenOrca).
 
 
 

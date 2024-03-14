@@ -21,6 +21,19 @@ With its extensive compilation of more than 4 million entries, the OpenOrca data
 
 ### Relevance to Real-world Applications
 
+This dataset supports a wide range of task categories, including:
+
+- Conversational
+- Text classification
+- Token classification
+- Table question answering
+- Question answering
+- Zero-shot classification
+- Summarization
+- Feature extraction
+- Text generation
+- Text2text generation
+
 The dataset's orientation towards tasks such as language modeling and text generation makes it directly applicable to real-world scenarios. It facilitates the development of models capable of understanding and generating human-like text, thereby enhancing machine interaction in various domains.
 
 ### Potential for Creative Exploration

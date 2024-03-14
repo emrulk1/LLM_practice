@@ -1,4 +1,5 @@
-# Selected Dataset : Among many datasets currently available for LLMs , I have selected OpenOrca Dataset for LLM traing and finetuning.
+## Selected Dataset 
+Among many datasets currently available for LLMs, I have selected the OpenOrca Dataset for LLM training and fine-tuning. This dataset presents a unique combination of scale, diversity, and depth, making it an exceptional resource for advancing the capabilities of large language models.
 
 ## Dataset Summary
 
@@ -10,6 +11,7 @@ The OpenOrca dataset is available on both Kaggle and Hugging Face, allowing for 
 
 - [Kaggle Dataset](https://www.kaggle.com/datasets/thedevastator/open-orca-augmented-flan-dataset/data)
 - [Hugging Face Dataset](https://huggingface.co/datasets/Open-Orca/OpenOrca)
+- [LLMDataHub on GitHub](https://github.com/Zjh-819/LLMDataHub): **LLMDataHub: Awesome Datasets for LLM Training**.
 
 ## Selection Criteria for LLM Training
 
